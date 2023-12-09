@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: Gilroy (otf); */
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+  }
+
+html, body {
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+}
+.main{
+    height: 100%;
+    width:100%;
+    position: relative;
+    /* background-color: aqua; */
+}
+.nav{
+    height: 95px;
+    width: 100%;
+    background-color: white;
+    display:flex;
+}
+.navleft{
+    height: 100%;
+    width:50%;
+    background-color:black;
+    border-radius: 0px 100px 0px 0px;
+    /* align-items: center; */
+    
+}
+.navleft h3{
+    color:red;
+    margin-left: 30px;
+    padding-left: 3vw;
+}
+.navleft img{
+    padding-left: 3vw;
+    /* color:red; */
+    margin-left: 50px;
+}
+.navleft p{
+    padding-left: 3vw;
+    /* color:red; */
+    word-spacing: 4px;
+    color:silver;
+    /* margin-left: 50px; */
+}
+.navright{
+    height: 100%;
+    width:50%;
+    background-color:white;
+    display: flex;
+    float: right;
+    align-items: center;
+    justify-content: space-between;
+    /* float: right; */
+    /* border-radius: 0px 100px 0px 0px; */
+    /* align-items: center; */   
+}
+.navr2 {
+    gap:3vw;
+    display: flex;
+    padding-right: 3vw;
+}
+.navr2 h5{
+    color: red;
+}
+.navr2 h5 a{
+    color: red;
+    text-decoration: none;
+}
+.menu{
+    width:20px;
+    height: 5px;
+    background-color: red;
+    margin: 2px 0;
+    border-radius: 50px;
+}
+.intropage{
+    height: calc(100% - 95px);
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+}
+.intropage1{
+    height: 100%;
+    width:50%;
+    background-color:black;
+    border-radius: 0px 0px 100px 0px;
+    /* align-items: center; */
+    padding-left: 3vw;
+    
+}
+.intropage2{
+    height: 100%;
+    width:50%;
+    background-color:white;
+    /* border-radius: 0px 100px 0px 0px; */
+    /* align-items: center; */
+    padding-left: 3vw;
+    
+}
+.div1{
+    height: 230px;
+    width: 230px;
+    background-color: blueviolet;
+    transform: rotate(-5deg);
+    margin-left: 120px;
+    /* border: 10px solid white; */
+    border-radius: 2px;
+    box-shadow: 1px 1px 10px 10px ;
+}
+.lowdiv{
+    display: flex;
+    
+}
+.div2{
+    height: 228px;
+    width: 228px;
+    background-color: blueviolet;
+    transform: rotate(14deg);
+    /* border: 10px solid; */
+    border-radius: 2px;
+    box-shadow: 1px 1px 10px 10px ;
+}
+.div3{
+    height: 228px;
+    width: 228px;
+    background-color: blueviolet;
+    transform: rotate(-10deg);
+    margin-left: 40px;
+    margin-top: -30px;
+    /* border: 10px solid; */
+    box-shadow: 1px 1px 10px 10px ;
+    border-radius: 2px;
+}
+.intropage1 h3{
+    color:white;
+    font-size: 3vw;
+    font-weight: 90;
+    word-spacing: 6px;;
+    padding: 3vw 1vw 0vw 3vw;
+    /* line-height: 8vw; */
+}
+.intropage1 h3 span{
+    color:red;
+    word-spacing: -4px;
+}
+.intropage1 h1{
+    color:white;
+    font-size:5vw;
+    font-weight: 190;
+    line-height: 4vw;
+    padding: 1vw 1vw 0vw 3vw;
+    /* background-color: yellowgreen; */
+}
+.intropage1 h1 span{
+    color:red;
+    font-size:3.8vw;
+    padding-left: 11px;
+}
+.intropage1 p{
+    color:white;
+    font-size:13px;
+    /* font-weight: 400; */
+    padding: 1vw 1vw 0vw 3.8vw;
+    width:80%;
+    /* padding-left: 11px; */
+}
+.searchbox{
+    height:50px;
+    width: 280px;
+    background-color: lightcoral;
+    margin: 2vw 0 0 7vw;
+    border-radius: 50px;
+    display: flex;
+    /* float: right; */
+    align-items: center;
+    justify-content: center;
+}
+.searchbox input{
+    border: none;
+    border-radius: 20px;
+    height:35px;
+    width: 210px;
+    padding-left: 20px;
+}
+::placeholder{
+    color: lightcoral;
+}
+.searchbox i{
+    height: 35px;
+    color: white;
+    font-size: 30px;
+}
+
+/*login page */
+
+.signup{
+    height: 100%;
+    width:100%;
+    display: flex;
+    background-color: bisque;
+}
+.signupimg{
+    height: 100%;
+    width:75%;
+    background-color: red;
+}
+.signupimg img{
+    height: 100%;
+    width:100%;
+    vertical-align: bottom;
+    /* background-color: red; */
+}
+.signupdata{
+    height: 100%;
+    width:25%;
+    /* padding-top: 2vw; */
+    background-color: white;
+}
+.signupdata h3{
+    padding-left: 7vw;
+    padding-top: 20vh;
+    color: silver;
+    font-size: large;
+    font-weight: 1000;
+}
+.signupbutton{
+    /* background-color: aqua; */
+    margin-top: 3vh;
+}
+.signupbutton button{
+    height:32px;
+    width:240px;
+    margin-left: 4vw;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    /* background-color: aqua; */
+}
+.check4news{
+    display: flex;
+    /* padding: 10px 55px; */
+    margin: 20px 55px;
+    /* background-color: green; */
+}
+.check4news p{
+    font-size: 12px;
+}
+.terms{
+    margin: 20px 55px;
+    padding: 0 12px;
+}
+.terms p{
+    /* margin: 20px 55px; */
+    text-align: center;
+    font-size: 13px;
+}
+.login{
+    margin: 20px 90px;
+}
+.login p{
+    font-size: 12px;
+    font-weight: 500;
+}
+.login p span{
+    color: blueviolet;
+}
+.login p span a{
+    text-decoration: none;
+}
+

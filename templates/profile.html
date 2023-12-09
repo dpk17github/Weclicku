@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>profile</title>
+        
+    </head>
+    <body>
+        <img src="{{user.socialaccount_set.all.0.get_avatar_url}}" style="height:200px; width:200px:" />
+        <h3>Full Name = {{user.socialaccount_set.all.0.extra_data.name}}</h3>
+        <h3>UserName = {{user.get_username}}</h3>
+    
+    </body>
+</html>
